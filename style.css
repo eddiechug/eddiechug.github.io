@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background: #1F79FF;
-  color: #E0C16C
+  color: #E0C16C;
   font-family: "Helvetica Neue",Arial, Helvetica, sans-serif, sans-serif;
 }
 
@@ -75,7 +75,7 @@ h2 {
 }
 
 #interests li {
-  color: #849A8C
+  color: #849A8C;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
