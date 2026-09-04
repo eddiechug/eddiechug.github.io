@@ -31,15 +31,16 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(200,650,300,650,"Black");
-createPlatform(600,530,500,530,"Black");
-createPlatform(1300,400,400,1300,"Black");
-createPlatform(1100,300,30,20,"Black");
-createPlatform(800,300,30,20,"Black");
-createPlatform(100,550,30,20,"Black");
-createPlatform(300,500,30,20,"Black");
-createPlatform(100,400,30,20,"Black");
-
+createPlatform(200,650,300,650,"#000000");
+createPlatform(600,530,500,530,"#000000");
+createPlatform(1300,400,400,1300,"#000000");
+createPlatform(1100,300,30,20,"#000000");
+createPlatform(800,300,30,20,"#000000");
+createPlatform(100,550,30,20,"#000000");
+createPlatform(300,500,30,20,"#000000");
+createPlatform(100,400,30,20,"#000000");
+createBadPlatform(1100, 700, 200, 50, "#0000")
+createPlatform(400,400,100,20,"#320ffa00");
 
     // TODO 3 - Create Collectables
 createCollectable("diamond", 500, 200, 0., 0.)
@@ -50,7 +51,7 @@ createCollectable("diamond", 200, 200, 0., 0.)
 
 createCannon("top", 500, 700);
     createCannon("left", 200, 700);
-    
+    createProjectile("left", 700, 200, 300, 300)
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
